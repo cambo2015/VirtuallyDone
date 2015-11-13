@@ -11,6 +11,9 @@ public class scene_change : MonoBehaviour {
 	//public type variable;
 
 
+	//__Levels__
+	private string scene1 = "bowling" ;
+	private string scene2 = "bowling_scene2" ;
 
 
 
@@ -27,11 +30,11 @@ public class scene_change : MonoBehaviour {
 
 	void OnMouseDown(){
 
-		LoadScene()
+		LoadScene ();
 	}//end on click
 
 
 	void LoadScene (){
-		Application.LoadLevel ("bowling_scene2");
+		Application.LoadLevel (scene2);
 	}//end load scene
 }
