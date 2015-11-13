@@ -8,6 +8,12 @@ public class Monster_Animation : MonoBehaviour {
 	Animator anim;
 
 
+	//__Variables__(Random)
+	private float random_number_of_monsters;
+
+
+
+
 
 
 
@@ -16,9 +22,15 @@ public class Monster_Animation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
+		//Random
+		random_number_of_monsters = Random.Range(1,5);
+
+
+		Debug.Log (random_number_of_monsters);
+
+		//Animation
 		anim = GetComponent <Animator> ();
-	
 	}
 
 	// Update is called once per frame
