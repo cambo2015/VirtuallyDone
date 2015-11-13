@@ -8,6 +8,12 @@ public class Monster_Animation : MonoBehaviour {
 	Animator anim;
 
 
+	//__Variables__(Random)
+	private float random_number_of_monsters;
+
+
+
+
 
 
 
@@ -16,9 +22,15 @@ public class Monster_Animation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
+		//Random
+		random_number_of_monsters = Random.Range(1,5);
+
+
+		Debug.Log (random_number_of_monsters);
+
+		//Animation
 		anim = GetComponent <Animator> ();
-	
 	}
 
 	// Update is called once per frame
@@ -33,9 +45,13 @@ public class Monster_Animation : MonoBehaviour {
 		if(Input.GetKey("space")){//if press space
 			anim.SetBool ("run",true);//find the bool set in the animation tab in unity and set it to true
 			//CHRISTEN PUTS MOVING CODE HERE :D
-
-
 		}
+
+		if(Input.GetKey("up")){
+			anim.SetBool ("run",false);
+		}
+
+
 		//bool run = Input.GetKey("space");
 		//anim.SetBool ("monster2Run", run);
 	}
