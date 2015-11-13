@@ -1,12 +1,12 @@
 
-#pragma strict
+//#pragma strict
 
-@script ExecuteInEditMode
-@script RequireComponent(Camera)
-@script AddComponentMenu("Image Effects/Color Adjustments/Contrast Enhance (Unsharp Mask)")
+//@script ExecuteInEditMode
+//@script RequireComponent(Camera)
+//@script AddComponentMenu("Image Effects/Color Adjustments/Contrast Enhance (Unsharp Mask)")
 
-class ContrastEnhance extends PostEffectsBase {
-	public var intensity : float = 0.5;
+class ContrastEnhance /*extends PostEffectsBase*/ {
+	/*public var intensity : float = 0.5;
 	public var threshhold : float = 0.0;
 	
 	private var separableBlurMaterial : Material;
@@ -66,5 +66,5 @@ class ContrastEnhance extends PostEffectsBase {
 		Graphics.Blit (source, destination, contrastCompositeMaterial); 
 		
 		RenderTexture.ReleaseTemporary (color4a);
-	}
+	}*/
 }

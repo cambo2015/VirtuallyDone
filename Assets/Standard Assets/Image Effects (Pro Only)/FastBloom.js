@@ -1,13 +1,13 @@
 
-#pragma strict
+//#pragma strict
 
-@script ExecuteInEditMode
-@script RequireComponent (Camera)
-@script AddComponentMenu ("Image Effects/Bloom and Glow/Bloom (Optimized)")
+//@script ExecuteInEditMode
+//@script RequireComponent (Camera)
+//@script AddComponentMenu ("Image Effects/Bloom and Glow/Bloom (Optimized)")
 
-class FastBloom extends PostEffectsBase {
+class FastBloom /*extends PostEffectsBase*/ {
 
-	public enum Resolution {
+	/*public enum Resolution {
 		Low = 0,
 		High = 1,
 	}
@@ -94,5 +94,5 @@ class FastBloom extends PostEffectsBase {
 		Graphics.Blit (source, destination, fastBloomMaterial, 0);
 
 		RenderTexture.ReleaseTemporary (rt);
-	}	
+	}	*/
 }
