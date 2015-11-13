@@ -45,9 +45,13 @@ public class Monster_Animation : MonoBehaviour {
 		if(Input.GetKey("space")){//if press space
 			anim.SetBool ("run",true);//find the bool set in the animation tab in unity and set it to true
 			//CHRISTEN PUTS MOVING CODE HERE :D
-
-
 		}
+
+		if(Input.GetKey("up")){
+			anim.SetBool ("run",false);
+		}
+
+
 		//bool run = Input.GetKey("space");
 		//anim.SetBool ("monster2Run", run);
 	}

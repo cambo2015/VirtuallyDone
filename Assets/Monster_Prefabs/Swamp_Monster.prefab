@@ -100,6 +100,8 @@ GameObject:
   - 4: {fileID: 485820}
   - 95: {fileID: 9504292}
   - 114: {fileID: 11459608}
+  - 136: {fileID: 13608844}
+  - 54: {fileID: 5413266}
   m_Layer: 0
   m_Name: Swamp_Monster
   m_TagString: Untagged
@@ -1962,6 +1964,21 @@ Transform:
   - {fileID: 482496}
   m_Father: {fileID: 481294}
   m_RootOrder: 0
+--- !u!54 &5413266
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107232}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &9504292
 Animator:
   serializedVersion: 3
@@ -1990,6 +2007,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a79fba907be4d2d8f91a668c607933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &13608844
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .800000012
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: .800000012, z: 0}
 --- !u!137 &13730382
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2082,7 +2112,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Radius
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Center.y
+      value: .800000012
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 107232}
