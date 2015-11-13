@@ -107,7 +107,7 @@ ModelImporter:
     3300000: wepon
     4300000: toad
     4300002: wepon
-    7400000: Take 001
+    7400000: Toad_Dead
     11100000: //RootNode
     13700000: toad
   materials:
@@ -129,7 +129,152 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Toad_Dead
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Omni001
+        weight: 1
+      - path: Omni002
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: toad
+        weight: 1
+      - path: toad 1
+        weight: 1
+      - path: toad 1/toad Footsteps
+        weight: 1
+      - path: toad 1/toad Pelvis
+        weight: 1
+      - path: toad 1/toad Pelvis/toad L Thigh
+        weight: 1
+      - path: toad 1/toad Pelvis/toad L Thigh/toad L Calf
+        weight: 1
+      - path: toad 1/toad Pelvis/toad L Thigh/toad L Calf/toad L Foot
+        weight: 1
+      - path: toad 1/toad Pelvis/toad L Thigh/toad L Calf/toad L Foot/toad L Toe0
+        weight: 1
+      - path: toad 1/toad Pelvis/toad L Thigh/toad L Calf/toad L Foot/toad L Toe0/toad
+          L Toe0Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad R Thigh
+        weight: 1
+      - path: toad 1/toad Pelvis/toad R Thigh/toad R Calf
+        weight: 1
+      - path: toad 1/toad Pelvis/toad R Thigh/toad R Calf/toad R Foot
+        weight: 1
+      - path: toad 1/toad Pelvis/toad R Thigh/toad R Calf/toad R Foot/toad R Toe0
+        weight: 1
+      - path: toad 1/toad Pelvis/toad R Thigh/toad R Calf/toad R Foot/toad R Toe0/toad
+          R Toe0Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad Head
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad Head/toad HeadNub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger0
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger0/toad L Finger01
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger0/toad L Finger01/toad L Finger0Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger1
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger1/toad L Finger11
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad L Clavicle/toad L UpperArm/toad
+          L Forearm/toad L Hand/toad L Finger1/toad L Finger11/toad L Finger1Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger0
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger0/toad R Finger01
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger0/toad R Finger01/toad R Finger0Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger1
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger1/toad R Finger11
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Spine/toad Neck/toad R Clavicle/toad R UpperArm/toad
+          R Forearm/toad R Hand/toad R Finger1/toad R Finger11/toad R Finger1Nub
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail/toad Tail1
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail/toad Tail1/toad Tail2
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail/toad Tail1/toad Tail2/toad Tail3
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail/toad Tail1/toad Tail2/toad Tail3/toad Tail4
+        weight: 1
+      - path: toad 1/toad Pelvis/toad Tail/toad Tail1/toad Tail2/toad Tail3/toad Tail4/toad
+          TailNub
+        weight: 1
+      - path: toad 1/toad Prop1
+        weight: 1
+      - path: toad 1/toad Prop1/wepon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
