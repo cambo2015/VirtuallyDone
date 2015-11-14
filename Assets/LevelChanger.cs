@@ -9,6 +9,9 @@ public class LevelChanger : MonoBehaviour {
 	private GameObject[] respawns;
 
 
+	void Start (){
+		checkBaddies ();
+	}
 
 	void checkBaddies() {
 		respawns = GameObject.FindGameObjectsWithTag("Baddies");
