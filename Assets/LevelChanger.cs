@@ -10,7 +10,8 @@ public class LevelChanger : MonoBehaviour {
 
 
 	void Start (){
-		checkBaddies ();
+
+		InvokeRepeating("checkBaddies", 3, 3);
 	}
 
 	void checkBaddies() {
