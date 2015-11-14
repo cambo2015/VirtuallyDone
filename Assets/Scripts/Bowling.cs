@@ -8,12 +8,6 @@ public class Bowling : MonoBehaviour
 	public float speed;   // this is to set the speed 
 	public int maxBalls;
 	public Rigidbody Ball;
-	
-	public Text countText;
-	public int number = 0;
-	
-	private GameObject[] baddies;
-
 
 
 	private GameObject[] respawns;
@@ -33,10 +27,6 @@ public class Bowling : MonoBehaviour
 
 	{
 
-		
-		baddies = GameObject.FindGameObjectsWithTag ("Baddie");
-		number = baddies.Length;
-		SetCountText ();
 
 
 		if (Input.GetButtonDown("Fire1"))
@@ -61,12 +51,7 @@ public class Bowling : MonoBehaviour
 			//SetCountText ();
 		}
 	}
-	void SetCountText ()
-		
-	{
-		countText.text = "Count: " + number.ToString ();
-		
-	}
+
 	
 
 }
