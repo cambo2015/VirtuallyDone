@@ -25,7 +25,7 @@ public class Bowling : MonoBehaviour
 	void Update () 
 
 	{
-		if (Input.GetKeyDown("space")) 
+		if (Input.GetButtonDown("Fire1"))
 		{
 			bowl ();
 		}
