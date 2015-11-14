@@ -6,8 +6,11 @@ public class Bowling : MonoBehaviour
 {
 
 	public float speed;   // this is to set the speed 
-
+	public int maxBalls;
 	public Rigidbody Ball;
+
+
+	private GameObject[] respawns;
 
 	
 	private int count;
@@ -20,14 +23,18 @@ public class Bowling : MonoBehaviour
 
 		BallClone.velocity = transform.forward * speed;
 		BallClone.GetComponent <Rigidbody> ().AddForce (Vector3.down * Random.Range(1,12) * 50 * 20);
-	}
+			}
 	// Update is called once per frame
 	void Update () 
 
 	{
 		if (Input.GetButtonDown("Fire1"))
 		{
+			respawns = GameObject.FindGameObjectsWithTag("Ball");
+			
+			if (respawns.Length < maxBalls) {
 			bowl ();
+			}
 		}
 
 	}

@@ -10,7 +10,7 @@ public class change_ball_material : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-
+		Destroy(gameObject, 8);
 		balls = Resources.LoadAll ("bowling_balls" );//returns an array
 		int ball_count = balls.Length;
 		Debug.Log (ball_count);
