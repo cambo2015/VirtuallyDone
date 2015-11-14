@@ -85,6 +85,80 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &99608755 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 123974, guid: ed0b96782f9164801a18ea985fd42e91, type: 2}
+  m_PrefabInternal: {fileID: 285793033}
+--- !u!82 &99608761
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99608755}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2d033dca014fb4295b24fe4ab555d906, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &285793033
 Prefab:
   m_ObjectHideFlags: 0
@@ -217,7 +291,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.82000005
+      value: .899999976
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -241,7 +315,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 474780, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
