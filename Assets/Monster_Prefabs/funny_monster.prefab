@@ -941,7 +941,7 @@ GameObject:
   - 65: {fileID: 6543516}
   m_Layer: 0
   m_Name: funny_monster
-  m_TagString: Untagged
+  m_TagString: Baddie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2411,7 +2411,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168600}
-  m_LocalRotation: {x: .0432877876, y: -.541156173, z: .839259088, w: -.0303394347}
+  m_LocalRotation: {x: .0432877839, y: -.541156113, z: .839258969, w: -.030339431}
   m_LocalPosition: {x: 1.01327998e-06, y: 1.71725702, z: -1.04308003e-06}
   m_LocalScale: {x: .99999994, y: .999999762, z: .999999762}
   m_Children:
@@ -2753,7 +2753,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186432}
-  m_LocalRotation: {x: .130832404, y: .69854039, z: .700613976, w: .0637526587}
+  m_LocalRotation: {x: .130832389, y: .69854033, z: .700613916, w: .0637526512}
   m_LocalPosition: {x: 8.64267008e-07, y: 1.86361694, z: -9.53673975e-07}
   m_LocalScale: {x: 1, y: 1.00000024, z: 1.00000012}
   m_Children: []
@@ -3175,7 +3175,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164598}
-  m_LocalRotation: {x: .130926922, y: .699596405, z: .699559808, w: .0635550693}
+  m_LocalRotation: {x: .130926907, y: .699596345, z: .699559748, w: .0635550618}
   m_LocalPosition: {x: 2.71498993e-05, y: .931796193, z: -4.76837022e-06}
   m_LocalScale: {x: 1, y: .999999881, z: .99999994}
   m_Children: []
@@ -3945,6 +3945,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Baddie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

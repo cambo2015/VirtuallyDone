@@ -102,9 +102,11 @@ GameObject:
   - 114: {fileID: 11459608}
   - 136: {fileID: 13608844}
   - 54: {fileID: 5413266}
+  - 65: {fileID: 6504882}
+  - 114: {fileID: 11461088}
   m_Layer: 0
   m_Name: Swamp_Monster
-  m_TagString: Untagged
+  m_TagString: Baddie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1977,8 +1979,20 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 42
+  m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6504882
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &9504292
 Animator:
   serializedVersion: 3
@@ -2007,6 +2021,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a79fba907be4d2d8f91a668c607933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11461088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107232}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1c7c9d4b76b4550b79964975bf9da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 35
+  Ball: {fileID: 5497906, guid: dc90b370d3a9d4fb1af14b514489ea90, type: 2}
 --- !u!136 &13608844
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2123,11 +2150,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Constraints
-      value: 42
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Drag
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Baddie
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Ball
+      value: 
+      objectReference: {fileID: 5497906, guid: dc90b370d3a9d4fb1af14b514489ea90, type: 2}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
