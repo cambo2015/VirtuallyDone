@@ -8,13 +8,17 @@ public class Bowling : MonoBehaviour
 	public float speed;   // this is to set the speed 
 	public int maxBalls;
 	public Rigidbody Ball;
+	
+	public Text countText;
+	public int number = 0;
+	
+	private GameObject[] baddies;
+
 
 
 	private GameObject[] respawns;
 
 	
-	private int count;
-
 
 	void bowl ()
 	{
@@ -28,6 +32,13 @@ public class Bowling : MonoBehaviour
 	void Update () 
 
 	{
+
+		
+		baddies = GameObject.FindGameObjectsWithTag ("Baddie");
+		number = baddies.Length;
+		SetCountText ();
+
+
 		if (Input.GetButtonDown("Fire1"))
 		{
 			respawns = GameObject.FindGameObjectsWithTag("Ball");
@@ -43,20 +54,19 @@ public class Bowling : MonoBehaviour
 
 		if (other.gameObject.CompareTag ("Baddie")) 
 		{
-		
+
+			
 			Destroy(other.gameObject, 2);
-			//count = count + 1;
+
 			//SetCountText ();
 		}
 	}
-	
-	/*void SetCountText ()
+	void SetCountText ()
 		
 	{
-		countText.text = "Count: " + count.ToString ();
-		if (count >= 15) 
-		{
-			winText.text = "You Win!!!"; 
-		}
-	}*/
+		countText.text = "Count: " + number.ToString ();
+		
+	}
+	
+
 }
