@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class die : MonoBehaviour {
 
@@ -9,9 +10,10 @@ public class die : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Baddie")) 
 		{
 			
-			Destroy(other.gameObject, 4);
-			//count = count + 1;
-			//SetCountText ();
-		}
+			
+			Destroy(other.gameObject, 2);
+					}
 	}
+			
 }
+

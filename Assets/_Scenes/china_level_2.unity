@@ -464,52 +464,24 @@ Transform:
   - {fileID: 347434108}
   m_Father: {fileID: 1475653468}
   m_RootOrder: 0
---- !u!1 &41620737
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 197164, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 41620738}
-  m_Layer: 0
-  m_Name: toad R Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &41620738
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 464284, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 41620737}
-  m_LocalRotation: {x: .536936641, y: -.0015396059, z: .843617737, w: .00241641421}
-  m_LocalPosition: {x: -.13260147, y: -.0342944339, z: -.101458922}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children:
-  - {fileID: 565680883}
-  m_Father: {fileID: 1079904870}
-  m_RootOrder: 2
 --- !u!1001 &47717129
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 525487322}
     m_Modifications:
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.54608154
+      value: -20.0990467
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.0900000036
+      value: 1.77571893
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.4899998
+      value: 37.7605362
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -517,7 +489,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -.707106829
+      value: .295046449
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.z
@@ -525,11 +497,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: .9554829
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 429188, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -579,9 +551,21 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: .0635550693
       objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .199999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .199999958
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &47717130 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+  m_PrefabInternal: {fileID: 47717129}
 --- !u!1001 &57329563
 Prefab:
   m_ObjectHideFlags: 0
@@ -619,7 +603,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -823,34 +807,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 886156400}
   m_Enabled: 1
---- !u!1 &67444454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 184230, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 67444455}
-  m_Layer: 0
-  m_Name: toad L Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &67444455
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 430234, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 67444454}
-  m_LocalRotation: {x: 5.10969578e-09, y: 5.42237322e-09, z: .727778792, w: .685811937}
-  m_LocalPosition: {x: -.363903463, y: 5.72204577e-08, z: 3.81469718e-08}
-  m_LocalScale: {x: .999999881, y: 1.00000024, z: 1.00000012}
-  m_Children:
-  - {fileID: 1537801828}
-  m_Father: {fileID: 967218380}
-  m_RootOrder: 0
 --- !u!1 &71968477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1023,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -1159,7 +1115,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -1180,33 +1136,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &158750189
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 176882, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 158750190}
-  m_Layer: 0
-  m_Name: Omni001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &158750190
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 410062, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 158750189}
-  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: 0, y: 3.29369068, z: -3.151577}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 227603647}
-  m_RootOrder: 0
 --- !u!1 &164817775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,7 +1163,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 44
+  m_RootOrder: 43
 --- !u!108 &164817777
 Light:
   m_ObjectHideFlags: 0
@@ -1465,7 +1394,7 @@ Transform:
   - {fileID: 1596599559}
   - {fileID: 1405629669}
   m_Father: {fileID: 463976367}
-  m_RootOrder: 42
+  m_RootOrder: 41
 --- !u!1 &187227638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,34 +1471,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 187227638}
   m_Mesh: {fileID: 4300000, guid: c814cd690ea655a47bf248862f732f0a, type: 3}
---- !u!1 &191125989
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 141578, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 191125990}
-  m_Layer: 0
-  m_Name: toad R Finger01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &191125990
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 416878, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 191125989}
-  m_LocalRotation: {x: -3.62824037e-09, y: -3.66229136e-09, z: -.330920935, w: .943658531}
-  m_LocalPosition: {x: -.0987192169, y: 0, z: 3.81469718e-08}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
-  m_Children:
-  - {fileID: 1536613213}
-  m_Father: {fileID: 1162610151}
-  m_RootOrder: 0
 --- !u!1 &198586019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,96 +1668,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_PrefabInternal: {fileID: 90606255}
---- !u!1 &227603646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 143812, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 227603647}
-  - 111: {fileID: 227603650}
-  - 136: {fileID: 227603649}
-  - 54: {fileID: 227603648}
-  m_Layer: 0
-  m_Name: toad
-  m_TagString: Baddie
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &227603647
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 493894, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227603646}
-  m_LocalRotation: {x: 0, y: -.944289863, z: 0, w: .329114974}
-  m_LocalPosition: {x: 51.4054222, y: -1.86571896, z: 12.9336567}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children:
-  - {fileID: 158750190}
-  - {fileID: 1476896836}
-  - {fileID: 2112395894}
-  m_Father: {fileID: 463976367}
-  m_RootOrder: 38
---- !u!54 &227603648
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5430598, guid: 91a476bf4ffae4c2abcb201e81ab3612,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227603646}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!136 &227603649
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13643632, guid: 91a476bf4ffae4c2abcb201e81ab3612,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227603646}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: -.100000001}
---- !u!111 &227603650
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11131514, guid: 91a476bf4ffae4c2abcb201e81ab3612,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227603646}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: bc4df6d08cdbe6e49a2c756727176cd6, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 1fa81112fed82ac46b314ad7ddbe4f39, type: 3}
-  - {fileID: 7400000, guid: e411faf3dabe57345b6c505e7e5d83cb, type: 3}
-  - {fileID: 7400000, guid: e6876eba08a2a174d875dbe03c7388fd, type: 3}
-  - {fileID: 7400000, guid: ff73ddff6339d54428146a56a5c12ff5, type: 3}
-  - {fileID: 7400000, guid: d54b37015f87a244ba9212482ce2e38f, type: 3}
-  - {fileID: 7400000, guid: 94ff9aed087b81e44a65093784790aa8, type: 3}
-  - {fileID: 7400000, guid: b8c175183829b614fb938b9dfd09730c, type: 3}
-  - {fileID: 7400000, guid: 7d2cba596a26092459a9bf57e8b8e13f, type: 3}
-  - {fileID: 7400000, guid: cfe3d890edf993b4e851d97f8b00d502, type: 3}
-  - {fileID: 7400000, guid: 4f3d0581ba602324e81566e99bc3cc9a, type: 3}
-  - {fileID: 7400000, guid: 7b095df782910fc46be6bb5da84b2359, type: 3}
-  - {fileID: 7400000, guid: bc4df6d08cdbe6e49a2c756727176cd6, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 1
 --- !u!1 &235056340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,7 +1759,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -2485,7 +2296,7 @@ Transform:
   - {fileID: 175613493}
   - {fileID: 509381833}
   m_Father: {fileID: 463976367}
-  m_RootOrder: 41
+  m_RootOrder: 40
 --- !u!1 &300587081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2702,7 +2513,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -2723,37 +2534,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &315116301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 105918, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 315116302}
-  m_Layer: 0
-  m_Name: toad Pelvis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &315116302
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 466018, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 315116301}
-  m_LocalRotation: {x: -.499999642, y: .500000358, z: .499999642, w: .500000358}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
-  m_Children:
-  - {fileID: 967218380}
-  - {fileID: 1028833724}
-  - {fileID: 1067372104}
-  - {fileID: 1611978384}
-  m_Father: {fileID: 2112395894}
-  m_RootOrder: 1
 --- !u!1 &321258874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,34 +2769,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_PrefabInternal: {fileID: 2016414125}
---- !u!1 &342034769
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 164650, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 342034770}
-  m_Layer: 0
-  m_Name: toad L Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &342034770
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 407150, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 342034769}
-  m_LocalRotation: {x: -.0216775909, y: -.0216775611, z: -.706774414, w: .706774414}
-  m_LocalPosition: {x: -.199650928, y: .137675852, z: -.0220845416}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 728349420}
-  m_Father: {fileID: 1537801828}
-  m_RootOrder: 0
 --- !u!1 &342451864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,7 +3051,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -3473,33 +3225,6 @@ Transform:
   - {fileID: 212848920}
   m_Father: {fileID: 520378536}
   m_RootOrder: 0
---- !u!1 &417724531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 133954, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 417724532}
-  m_Layer: 0
-  m_Name: toad R Toe0Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &417724532
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 417746, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 417724531}
-  m_LocalRotation: {x: 0, y: 4.59522143e-10, z: -0, w: 1}
-  m_LocalPosition: {x: -.384755284, y: 0, z: 3.81469718e-08}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 691783240}
-  m_RootOrder: 0
 --- !u!1001 &439098782
 Prefab:
   m_ObjectHideFlags: 0
@@ -3537,7 +3262,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -3675,61 +3400,6 @@ Transform:
   - {fileID: 576906418}
   m_Father: {fileID: 205054914}
   m_RootOrder: 0
---- !u!1 &457438530
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 125876, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 457438531}
-  m_Layer: 0
-  m_Name: toad L Finger0Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &457438531
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 458128, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 457438530}
-  m_LocalRotation: {x: -6.98491875e-10, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -.142365634, y: 0, z: -3.81469718e-08}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1030828146}
-  m_RootOrder: 0
---- !u!1 &462018308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 175022, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 462018309}
-  m_Layer: 0
-  m_Name: toad Tail2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &462018309
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 402376, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 462018308}
-  m_LocalRotation: {x: 2.13068393e-14, y: 2.8975569e-07, z: -.104469076, w: .994528174}
-  m_LocalPosition: {x: -.377725512, y: -.000207366946, z: -5.75382741e-10}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 1613843136}
-  m_Father: {fileID: 811048875}
-  m_RootOrder: 0
 --- !u!1 &463976366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,7 +3463,6 @@ Transform:
   - {fileID: 264568878}
   - {fileID: 968742616}
   - {fileID: 1511767705}
-  - {fileID: 227603647}
   - {fileID: 1447570051}
   - {fileID: 488415169}
   - {fileID: 298354038}
@@ -3805,7 +3474,7 @@ Transform:
   - {fileID: 828797209}
   - {fileID: 1228976421}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
 --- !u!1 &469890050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,7 +3574,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -4018,7 +3687,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -4141,7 +3810,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 40
+  m_RootOrder: 39
 --- !u!1 &491218806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,34 +3906,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491218806}
   m_Mesh: {fileID: 4300000, guid: 173acad1004308c49bfdc6ce29d53344, type: 3}
---- !u!1 &492625400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 196328, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 492625401}
-  m_Layer: 0
-  m_Name: toad R Finger11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &492625401
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 440112, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 492625400}
-  m_LocalRotation: {x: -3.28828342e-09, y: 8.14753864e-09, z: -.174108148, w: .984726548}
-  m_LocalPosition: {x: -.071919933, y: 0, z: -1.90734859e-08}
-  m_LocalScale: {x: .99999994, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2136655635}
-  m_Father: {fileID: 1187509607}
-  m_RootOrder: 0
 --- !u!1 &500245724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4322,33 +3963,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 401459239}
   m_Enabled: 1
---- !u!1 &500391201
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 133528, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 500391202}
-  m_Layer: 0
-  m_Name: toad HeadNub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &500391202
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 414486, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 500391201}
-  m_LocalRotation: {x: -2.84217094e-14, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -.656065643, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1824454991}
-  m_RootOrder: 0
 --- !u!1001 &501380062
 Prefab:
   m_ObjectHideFlags: 0
@@ -4386,7 +4000,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -4467,34 +4081,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_PrefabInternal: {fileID: 2080185454}
---- !u!1 &523582298
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 134586, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 523582299}
-  m_Layer: 0
-  m_Name: toad L Finger0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &523582299
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 448184, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 523582298}
-  m_LocalRotation: {x: .685210943, y: -.341691196, z: .0241332818, w: .642768025}
-  m_LocalPosition: {x: -.0184513666, y: .032463301, z: -.0997957587}
-  m_LocalScale: {x: .999999881, y: .999999881, z: .99999994}
-  m_Children:
-  - {fileID: 1030828146}
-  m_Father: {fileID: 1450832181}
-  m_RootOrder: 0
 --- !u!1 &524024676
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,6 +4133,7 @@ Transform:
   m_LocalPosition: {x: 25.3999977, y: -1.86571896, z: 24.3999939}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1595661025}
   - {fileID: 955009950}
   - {fileID: 349807671}
   - {fileID: 747221292}
@@ -4575,8 +4162,10 @@ Transform:
   - {fileID: 522997577}
   - {fileID: 619945530}
   - {fileID: 37358289}
+  - {fileID: 47717130}
+  - {fileID: 1438647169}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
 --- !u!1 &527930812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4731,34 +4320,6 @@ Transform:
   m_Children:
   - {fileID: 2035747217}
   m_Father: {fileID: 885015788}
-  m_RootOrder: 0
---- !u!1 &565680882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 154596, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 565680883}
-  m_Layer: 0
-  m_Name: toad R UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &565680883
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 486622, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 565680882}
-  m_LocalRotation: {x: .109641887, y: .346286952, z: .0649341419, w: .929434001}
-  m_LocalPosition: {x: -.377514035, y: 0, z: 7.62939436e-08}
-  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
-  m_Children:
-  - {fileID: 1946228960}
-  m_Father: {fileID: 41620738}
   m_RootOrder: 0
 --- !u!1 &571958210
 GameObject:
@@ -5353,34 +4914,6 @@ Transform:
   - {fileID: 2052959941}
   m_Father: {fileID: 463976367}
   m_RootOrder: 27
---- !u!1 &666009825
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 129262, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 666009826}
-  m_Layer: 0
-  m_Name: toad L Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &666009826
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 442728, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666009825}
-  m_LocalRotation: {x: -.536936581, y: .00153726363, z: .843617737, w: .0024178999}
-  m_LocalPosition: {x: -.13260147, y: -.0342949666, z: .101458728}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
-  m_Children:
-  - {fileID: 708850863}
-  m_Father: {fileID: 1079904870}
-  m_RootOrder: 1
 --- !u!1 &672737552
 GameObject:
   m_ObjectHideFlags: 0
@@ -5408,62 +4941,6 @@ Transform:
   m_Children:
   - {fileID: 71968478}
   m_Father: {fileID: 1504509592}
-  m_RootOrder: 0
---- !u!1 &691783239
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 142544, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 691783240}
-  m_Layer: 0
-  m_Name: toad R Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &691783240
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 452920, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 691783239}
-  m_LocalRotation: {x: .0216775909, y: .0216775592, z: -.706774414, w: .706774414}
-  m_LocalPosition: {x: -.199650928, y: .137675852, z: .0220845025}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 417724532}
-  m_Father: {fileID: 726022081}
-  m_RootOrder: 0
---- !u!1 &708850862
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 153168, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 708850863}
-  m_Layer: 0
-  m_Name: toad L UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &708850863
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 401674, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708850862}
-  m_LocalRotation: {x: -.109641872, y: -.346286923, z: .0649341643, w: .929434001}
-  m_LocalPosition: {x: -.377514064, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1359725256}
-  m_Father: {fileID: 666009826}
   m_RootOrder: 0
 --- !u!4 &718931783 stripped
 Transform:
@@ -5497,7 +4974,7 @@ Transform:
   m_LocalScale: {x: .5, y: .5, z: .5}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 45
+  m_RootOrder: 44
 --- !u!154 &720809475
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -5603,61 +5080,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722168314}
   m_Mesh: {fileID: 4300000, guid: 30b05c32500f66c4ebade68d4a4ccb70, type: 3}
---- !u!1 &726022080
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 176884, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 726022081}
-  m_Layer: 0
-  m_Name: toad R Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &726022081
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 469564, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 726022080}
-  m_LocalRotation: {x: -.215828449, y: -.03537599, z: -.40694055, w: .886885583}
-  m_LocalPosition: {x: -.187645912, y: 0, z: -3.81469718e-08}
-  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
-  m_Children:
-  - {fileID: 691783240}
-  m_Father: {fileID: 803507525}
-  m_RootOrder: 0
---- !u!1 &728349419
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 122028, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 728349420}
-  m_Layer: 0
-  m_Name: toad L Toe0Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &728349420
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 466200, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728349419}
-  m_LocalRotation: {x: -4.53610427e-10, y: 2.77756292e-26, z: 1, w: 6.12323426e-17}
-  m_LocalPosition: {x: -.384755284, y: 8.94069652e-10, z: 0}
-  m_LocalScale: {x: -1.00000012, y: -1, z: -1.00000012}
-  m_Children: []
-  m_Father: {fileID: 342034770}
-  m_RootOrder: 0
 --- !u!4 &730807744 stripped
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -5951,7 +5373,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -36.1418266
+      value: -36.2700005
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5959,7 +5381,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 28.6448288
+      value: 28.4500008
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5979,7 +5401,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -6229,34 +5651,6 @@ Transform:
   - {fileID: 1943908068}
   m_Father: {fileID: 2019664162}
   m_RootOrder: 0
---- !u!1 &803507524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 196290, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 803507525}
-  m_Layer: 0
-  m_Name: toad R Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &803507525
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 427142, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 803507524}
-  m_LocalRotation: {x: 3.12835375e-08, y: 1.14700995e-08, z: .727778792, w: .685811996}
-  m_LocalPosition: {x: -.363903493, y: 0, z: 0}
-  m_LocalScale: {x: .99999994, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 726022081}
-  m_Father: {fileID: 1028833724}
-  m_RootOrder: 0
 --- !u!1 &809058886
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,34 +5790,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 810729688}
   m_Mesh: {fileID: 4300000, guid: 4c63cd7ed73d5ad469dbf06b88535673, type: 3}
---- !u!1 &811048874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 109334, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 811048875}
-  m_Layer: 0
-  m_Name: toad Tail1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &811048875
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 433460, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 811048874}
-  m_LocalRotation: {x: 2.46895142e-13, y: 3.16134475e-07, z: -.113979802, w: .993483067}
-  m_LocalPosition: {x: -.487213492, y: -.000292968733, z: -8.12433398e-10}
-  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
-  m_Children:
-  - {fileID: 462018309}
-  m_Father: {fileID: 1611978384}
-  m_RootOrder: 0
 --- !u!1 &814571207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6482,7 +5848,7 @@ Transform:
   m_LocalScale: {x: 80, y: 50, z: 25}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 47
+  m_RootOrder: 46
 --- !u!65 &828797210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6711,7 +6077,7 @@ Transform:
   m_LocalScale: {x: 80, y: 50, z: 25}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 46
+  m_RootOrder: 45
 --- !u!65 &885204799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6866,7 +6232,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -6924,7 +6290,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -7091,34 +6457,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 965987358}
   m_Mesh: {fileID: 4300000, guid: 4c63cd7ed73d5ad469dbf06b88535673, type: 3}
---- !u!1 &967218379
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 124152, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 967218380}
-  m_Layer: 0
-  m_Name: toad L Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &967218380
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 483256, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 967218379}
-  m_LocalRotation: {x: -.361533195, y: .906344771, z: .121300623, w: .18198657}
-  m_LocalPosition: {x: 2.28881831e-07, y: 3.05175774e-07, z: .178731203}
-  m_LocalScale: {x: .999999821, y: 1, z: 1}
-  m_Children:
-  - {fileID: 67444455}
-  m_Father: {fileID: 315116302}
-  m_RootOrder: 0
 --- !u!1 &968742615
 GameObject:
   m_ObjectHideFlags: 0
@@ -7585,62 +6923,6 @@ Transform:
   - {fileID: 520378536}
   m_Father: {fileID: 109764107}
   m_RootOrder: 0
---- !u!1 &1028833723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 187730, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1028833724}
-  m_Layer: 0
-  m_Name: toad R Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1028833724
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 486440, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1028833723}
-  m_LocalRotation: {x: -.361533135, y: .906344295, z: -.12130136, w: -.181988388}
-  m_LocalPosition: {x: -2.28881831e-07, y: -2.28881831e-07, z: -.178731173}
-  m_LocalScale: {x: .999999821, y: 1, z: 1}
-  m_Children:
-  - {fileID: 803507525}
-  m_Father: {fileID: 315116302}
-  m_RootOrder: 1
---- !u!1 &1030828145
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 104378, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1030828146}
-  m_Layer: 0
-  m_Name: toad L Finger01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1030828146
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 402542, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030828145}
-  m_LocalRotation: {x: 4.57318836e-11, y: 2.94474556e-09, z: -.330920905, w: .943658531}
-  m_LocalPosition: {x: -.0987192169, y: 0, z: 0}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children:
-  - {fileID: 457438531}
-  m_Father: {fileID: 523582299}
-  m_RootOrder: 0
 --- !u!1 &1054135622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7888,64 +7170,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1058282212}
   m_Mesh: {fileID: 4300000, guid: 173acad1004308c49bfdc6ce29d53344, type: 3}
---- !u!1 &1067372103
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 145030, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1067372104}
-  m_Layer: 0
-  m_Name: toad Spine
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1067372104
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 404548, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1067372103}
-  m_LocalRotation: {x: -2.18611899e-06, y: 8.40435519e-07, z: -.241698802, w: .970351338}
-  m_LocalPosition: {x: -.181155235, y: -.000164642333, z: 2.5145448e-07}
-  m_LocalScale: {x: 1, y: 1, z: .99999994}
-  m_Children:
-  - {fileID: 1079904870}
-  m_Father: {fileID: 315116302}
-  m_RootOrder: 2
---- !u!1 &1079904869
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 177316, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1079904870}
-  m_Layer: 0
-  m_Name: toad Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1079904870
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 460246, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1079904869}
-  m_LocalRotation: {x: -4.99429836e-14, y: -9.0511687e-09, z: .00326334173, w: .999994695}
-  m_LocalPosition: {x: -.234130785, y: -6.8435671e-05, z: -1.89902483e-10}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 1824454991}
-  - {fileID: 666009826}
-  - {fileID: 41620738}
-  m_Father: {fileID: 1067372104}
-  m_RootOrder: 0
 --- !u!1 &1081657307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8462,34 +7686,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1161337244}
   m_Mesh: {fileID: 4300000, guid: 30b05c32500f66c4ebade68d4a4ccb70, type: 3}
---- !u!1 &1162610150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 153644, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1162610151}
-  m_Layer: 0
-  m_Name: toad R Finger0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1162610151
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 471924, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1162610150}
-  m_LocalRotation: {x: -.685210943, y: .341691166, z: .0241332725, w: .642768025}
-  m_LocalPosition: {x: -.0184514429, y: .0324632265, z: .0997957364}
-  m_LocalScale: {x: 1, y: .99999994, z: 1}
-  m_Children:
-  - {fileID: 191125990}
-  m_Father: {fileID: 1588492584}
-  m_RootOrder: 0
 --- !u!4 &1174412775 stripped
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -8578,34 +7774,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_PrefabInternal: {fileID: 1833574710}
---- !u!1 &1187509606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 160602, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1187509607}
-  m_Layer: 0
-  m_Name: toad R Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1187509607
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 438514, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1187509606}
-  m_LocalRotation: {x: .000387287437, y: 9.23976477e-05, z: -.232059315, w: .972701609}
-  m_LocalPosition: {x: -.145612985, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 492625401}
-  m_Father: {fileID: 1588492584}
-  m_RootOrder: 1
 --- !u!1 &1188042763
 GameObject:
   m_ObjectHideFlags: 0
@@ -8762,7 +7930,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -9090,7 +8258,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 25}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 48
+  m_RootOrder: 47
 --- !u!65 &1228976422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9680,33 +8848,6 @@ Transform:
   - {fileID: 638627442}
   m_Father: {fileID: 1697166006}
   m_RootOrder: 3
---- !u!1 &1322730524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114854, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1322730525}
-  m_Layer: 0
-  m_Name: toad L Finger1Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1322730525
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 440958, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1322730524}
-  m_LocalRotation: {x: 2.79396772e-09, y: -3.72529074e-09, z: 1.04083417e-17, w: 1}
-  m_LocalPosition: {x: -.0814585835, y: 3.81469718e-08, z: 3.81469718e-08}
-  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
-  m_Children: []
-  m_Father: {fileID: 1782285730}
-  m_RootOrder: 0
 --- !u!1 &1332515583
 GameObject:
   m_ObjectHideFlags: 0
@@ -9825,34 +8966,6 @@ Transform:
   - {fileID: 576073406}
   m_Father: {fileID: 1618645751}
   m_RootOrder: 0
---- !u!1 &1359725255
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 115652, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1359725256}
-  m_Layer: 0
-  m_Name: toad L Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1359725256
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 493822, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1359725255}
-  m_LocalRotation: {x: -1.65990421e-08, y: -2.11214779e-08, z: .31145069, w: .950262368}
-  m_LocalPosition: {x: -.327225834, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1450832181}
-  m_Father: {fileID: 708850863}
-  m_RootOrder: 0
 --- !u!1 &1398212042
 GameObject:
   m_ObjectHideFlags: 0
@@ -9912,7 +9025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
 --- !u!1 &1403452109
 GameObject:
   m_ObjectHideFlags: 0
@@ -10162,19 +9275,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 525487322}
     m_Modifications:
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.54608154
+      value: -13.9378719
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.0500000007
+      value: 1.81571901
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.03000021
+      value: 33.5544128
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -10182,7 +9295,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -.707106829
+      value: .295046449
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.z
@@ -10190,11 +9303,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: .9554829
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 429188, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -10248,9 +9361,21 @@ Prefab:
       propertyPath: m_Name
       value: funny_monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .199999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .199999958
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1438647169 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+  m_PrefabInternal: {fileID: 1438647168}
 --- !u!1 &1447231604
 GameObject:
   m_ObjectHideFlags: 0
@@ -10356,7 +9481,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 463976367}
-  m_RootOrder: 39
+  m_RootOrder: 38
 --- !u!136 &1447570052
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10404,35 +9529,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447570050}
   m_Mesh: {fileID: 4300000, guid: 645640f8895e73a4fbcd746aa94a0efb, type: 3}
---- !u!1 &1450832180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 169144, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1450832181}
-  m_Layer: 0
-  m_Name: toad L Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1450832181
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 456384, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1450832180}
-  m_LocalRotation: {x: -.699863493, y: .0989595652, z: -.0990383774, w: .700421035}
-  m_LocalPosition: {x: -.279072821, y: -5.72204577e-08, z: 0}
-  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
-  m_Children:
-  - {fileID: 523582299}
-  - {fileID: 1684456634}
-  m_Father: {fileID: 1359725256}
-  m_RootOrder: 0
 --- !u!1 &1452110327
 GameObject:
   m_ObjectHideFlags: 0
@@ -10575,7 +9671,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -10624,33 +9720,6 @@ Transform:
   - {fileID: 38969515}
   m_Father: {fileID: 109764107}
   m_RootOrder: 2
---- !u!1 &1476896835
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 110684, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1476896836}
-  m_Layer: 0
-  m_Name: Omni002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1476896836
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 430346, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1476896835}
-  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: 0, y: 3.29369068, z: 1.97262251}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 227603647}
-  m_RootOrder: 1
 --- !u!1 &1481760353
 GameObject:
   m_ObjectHideFlags: 0
@@ -11174,61 +10243,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1523025653}
   m_Mesh: {fileID: 4300000, guid: c857b1e4fcde5834b929934cbb94cc6e, type: 3}
---- !u!1 &1536613212
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 180054, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1536613213}
-  m_Layer: 0
-  m_Name: toad R Finger0Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1536613213
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 455656, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1536613212}
-  m_LocalRotation: {x: 9.31322575e-10, y: -4.88944352e-09, z: 1, w: 3.72529074e-09}
-  m_LocalPosition: {x: -.14236562, y: 0, z: -3.81469718e-08}
-  m_LocalScale: {x: -.99999994, y: -1, z: -1}
-  m_Children: []
-  m_Father: {fileID: 191125990}
-  m_RootOrder: 0
---- !u!1 &1537801827
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 108186, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1537801828}
-  m_Layer: 0
-  m_Name: toad L Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1537801828
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 441538, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537801827}
-  m_LocalRotation: {x: .215828389, y: .0353759043, z: -.40694055, w: .886885583}
-  m_LocalPosition: {x: -.187646002, y: 0, z: -3.81469718e-08}
-  m_LocalScale: {x: .99999994, y: 1, z: .999999881}
-  m_Children:
-  - {fileID: 342034770}
-  m_Father: {fileID: 67444455}
-  m_RootOrder: 0
 --- !u!1 &1538956468
 GameObject:
   m_ObjectHideFlags: 0
@@ -11572,7 +10586,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -11593,33 +10607,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1572523353
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 131202, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1572523354}
-  m_Layer: 0
-  m_Name: toad Footsteps
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1572523354
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 463694, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1572523353}
-  m_LocalRotation: {x: 0, y: 0, z: -.707106352, w: .707107306}
-  m_LocalPosition: {x: -0, y: 0, z: -.567863166}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2112395894}
-  m_RootOrder: 0
 --- !u!1001 &1575646463
 Prefab:
   m_ObjectHideFlags: 0
@@ -11657,7 +10644,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -11719,7 +10706,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -11897,35 +10884,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1585888656}
   m_Mesh: {fileID: 4300000, guid: 2295d1dbd2cee5c4886edcb261823fe9, type: 3}
---- !u!1 &1588492583
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 170354, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1588492584}
-  m_Layer: 0
-  m_Name: toad R Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1588492584
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 401422, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1588492583}
-  m_LocalRotation: {x: .699863493, y: -.0989595652, z: -.0990383774, w: .700421035}
-  m_LocalPosition: {x: -.279072881, y: -5.72204577e-08, z: 0}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
-  m_Children:
-  - {fileID: 1162610151}
-  - {fileID: 1187509607}
-  m_Father: {fileID: 1946228960}
-  m_RootOrder: 0
 --- !u!1 &1590189423
 GameObject:
   m_ObjectHideFlags: 0
@@ -12015,19 +10973,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 525487322}
     m_Modifications:
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.54608154
+      value: -23.493475
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.0900000036
+      value: 1.77571893
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -17.6000004
+      value: 40.0778542
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -12035,7 +10993,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -.707106829
+      value: .295046449
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.z
@@ -12043,7 +11001,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: .9554829
       objectReference: {fileID: 0}
     - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
       propertyPath: m_RootOrder
@@ -12101,9 +11059,21 @@ Prefab:
       propertyPath: m_Name
       value: funny_monster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .199999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .199999958
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1595661025 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401374, guid: 1a1264b69a30744b98a89134e0c0cd4b, type: 2}
+  m_PrefabInternal: {fileID: 1595661024}
 --- !u!1 &1596599558
 GameObject:
   m_ObjectHideFlags: 0
@@ -12237,62 +11207,6 @@ Transform:
   - {fileID: 1593841555}
   m_Father: {fileID: 175613493}
   m_RootOrder: 0
---- !u!1 &1611978383
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 102830, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1611978384}
-  m_Layer: 0
-  m_Name: toad Tail
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1611978384
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 412232, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611978383}
-  m_LocalRotation: {x: -3.82651621e-07, y: -2.78754811e-07, z: .878941417, w: .476929873}
-  m_LocalPosition: {x: -.0159982685, y: -.271789849, z: -3.72171058e-08}
-  m_LocalScale: {x: 1, y: 1, z: .99999994}
-  m_Children:
-  - {fileID: 811048875}
-  m_Father: {fileID: 315116302}
-  m_RootOrder: 3
---- !u!1 &1613843135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 103398, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1613843136}
-  m_Layer: 0
-  m_Name: toad Tail3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1613843136
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 485136, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1613843135}
-  m_LocalRotation: {x: -2.21711945e-13, y: 5.89346563e-08, z: -.0212483853, w: .999774218}
-  m_LocalPosition: {x: -.266264647, y: -.000221214286, z: -6.13363194e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1634207398}
-  m_Father: {fileID: 462018309}
-  m_RootOrder: 0
 --- !u!1 &1618645750
 GameObject:
   m_ObjectHideFlags: 0
@@ -12358,7 +11272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -12379,34 +11293,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1634207397
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 160050, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1634207398}
-  m_Layer: 0
-  m_Name: toad Tail4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1634207398
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 454486, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634207397}
-  m_LocalRotation: {x: -1.10184567e-13, y: 5.89345213e-08, z: -.0212483946, w: .999774218}
-  m_LocalPosition: {x: -.278045177, y: -.000281028741, z: -7.79618814e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1775011653}
-  m_Father: {fileID: 1613843136}
-  m_RootOrder: 0
 --- !u!1 &1640921222
 GameObject:
   m_ObjectHideFlags: 0
@@ -12471,7 +11357,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -12689,34 +11575,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673876414}
   m_Mesh: {fileID: 4300000, guid: 4c63cd7ed73d5ad469dbf06b88535673, type: 3}
---- !u!1 &1684456633
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 154346, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1684456634}
-  m_Layer: 0
-  m_Name: toad L Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1684456634
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 402110, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1684456633}
-  m_LocalRotation: {x: -.000387289067, y: -9.24049309e-05, z: -.232059315, w: .972701609}
-  m_LocalPosition: {x: -.14561294, y: 7.62939436e-08, z: -1.90734859e-08}
-  m_LocalScale: {x: .99999994, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 1782285730}
-  m_Father: {fileID: 1450832181}
-  m_RootOrder: 1
 --- !u!1 &1686686769
 GameObject:
   m_ObjectHideFlags: 0
@@ -12775,7 +11633,7 @@ Transform:
   - {fileID: 538746047}
   - {fileID: 1308419385}
   m_Father: {fileID: 463976367}
-  m_RootOrder: 43
+  m_RootOrder: 42
 --- !u!111 &1697166007
 Animation:
   m_ObjectHideFlags: 0
@@ -12840,7 +11698,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -12898,7 +11756,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -13098,61 +11956,6 @@ Transform:
   - {fileID: 1228545000}
   m_Father: {fileID: 463976367}
   m_RootOrder: 32
---- !u!1 &1775011652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 169732, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1775011653}
-  m_Layer: 0
-  m_Name: toad TailNub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1775011653
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 460430, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1775011652}
-  m_LocalRotation: {x: .707388282, y: -.706825256, z: -9.80225309e-07, w: -9.8100611e-07}
-  m_LocalPosition: {x: -.353190452, y: 1.90734859e-08, z: 2.18278724e-13}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1634207398}
-  m_RootOrder: 0
---- !u!1 &1782285729
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 163484, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1782285730}
-  m_Layer: 0
-  m_Name: toad L Finger11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1782285730
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 409942, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1782285729}
-  m_LocalRotation: {x: 1.45408763e-09, y: -7.82323717e-09, z: -.174108133, w: .984726548}
-  m_LocalPosition: {x: -.0719198957, y: -7.62939436e-08, z: -1.90734859e-08}
-  m_LocalScale: {x: 1, y: .99999994, z: 1}
-  m_Children:
-  - {fileID: 1322730525}
-  m_Father: {fileID: 1684456634}
-  m_RootOrder: 0
 --- !u!1 &1796525693
 GameObject:
   m_ObjectHideFlags: 0
@@ -13443,34 +12246,6 @@ Transform:
   - {fileID: 1455301079}
   m_Father: {fileID: 1796525694}
   m_RootOrder: 0
---- !u!1 &1824454990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 183888, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1824454991}
-  m_Layer: 0
-  m_Name: toad Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1824454991
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 430166, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1824454990}
-  m_LocalRotation: {x: -3.44095192e-15, y: 6.6740049e-09, z: -.00240557594, w: .999997139}
-  m_LocalPosition: {x: -.086000517, y: -7.62939436e-08, z: 0}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
-  m_Children:
-  - {fileID: 500391202}
-  m_Father: {fileID: 1079904870}
-  m_RootOrder: 0
 --- !u!1 &1831535496
 GameObject:
   m_ObjectHideFlags: 0
@@ -13585,7 +12360,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -14000,7 +12775,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -14366,7 +13141,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -14568,34 +13343,6 @@ Transform:
   - {fileID: 2017530218}
   m_Father: {fileID: 786738753}
   m_RootOrder: 1
---- !u!1 &1946228959
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 173004, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1946228960}
-  m_Layer: 0
-  m_Name: toad R Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1946228960
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 490250, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1946228959}
-  m_LocalRotation: {x: 1.88009892e-08, y: -9.51903534e-09, z: .31145069, w: .950262368}
-  m_LocalPosition: {x: -.327225834, y: 0, z: 0}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1588492584}
-  m_Father: {fileID: 565680883}
-  m_RootOrder: 0
 --- !u!1 &1947982002
 GameObject:
   m_ObjectHideFlags: 0
@@ -14911,7 +13658,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -15471,7 +14218,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -15560,7 +14307,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalScale.x
@@ -15581,35 +14328,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2112395893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 164938, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2112395894}
-  m_Layer: 0
-  m_Name: toad 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2112395894
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 423566, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112395893}
-  m_LocalRotation: {x: -.5, y: .5, z: .5, w: .5}
-  m_LocalPosition: {x: 0, y: .573471367, z: -.343550682}
-  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
-  m_Children:
-  - {fileID: 1572523354}
-  - {fileID: 315116302}
-  m_Father: {fileID: 227603647}
-  m_RootOrder: 2
 --- !u!1 &2116235911
 GameObject:
   m_ObjectHideFlags: 0
@@ -15794,33 +14512,6 @@ Transform:
   m_Children:
   - {fileID: 249215294}
   m_Father: {fileID: 1593841555}
-  m_RootOrder: 0
---- !u!1 &2136655634
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 173186, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2136655635}
-  m_Layer: 0
-  m_Name: toad R Finger1Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2136655635
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 477288, guid: 91a476bf4ffae4c2abcb201e81ab3612, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2136655634}
-  m_LocalRotation: {x: 3.42162353e-25, y: 5.58793545e-09, z: 1, w: 6.12323426e-17}
-  m_LocalPosition: {x: -.0814585835, y: 0, z: -1.90734859e-08}
-  m_LocalScale: {x: -1, y: -1, z: -1}
-  m_Children: []
-  m_Father: {fileID: 492625401}
   m_RootOrder: 0
 --- !u!1001 &2136834130
 Prefab:
