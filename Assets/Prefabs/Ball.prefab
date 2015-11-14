@@ -14,6 +14,7 @@ GameObject:
   - 135: {fileID: 13517304}
   - 114: {fileID: 11442806}
   - 114: {fileID: 11420106}
+  - 114: {fileID: 11445656}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Ball
@@ -71,7 +72,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155834}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 20
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -104,6 +105,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 100
   Ball: {fileID: 5497906}
+--- !u!114 &11445656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6043f8051c004c9686bf1f97adae38a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &13517304
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -135,6 +147,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4e2d8ee9c5fc6428e85d7143b9fc5e03, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m
+      value: 
+      objectReference: {fileID: 2100000, guid: 3003f8a235e2a431bacb38e58ca4dbf0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 155834}

@@ -17,7 +17,9 @@ public class Bowling : MonoBehaviour
 	{
 
 		Rigidbody BallClone = (Rigidbody)Instantiate (Ball, transform.position, transform.rotation);
+
 		BallClone.velocity = transform.forward * speed;
+		BallClone.GetComponent <Rigidbody> ().AddForce (Vector3.down * Random.Range(1,12) * 50 * 20);
 	}
 	// Update is called once per frame
 	void Update () 
