@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+  maxBalls: 0
   Ball: {fileID: 5497906}
 --- !u!114 &11445656
 MonoBehaviour:

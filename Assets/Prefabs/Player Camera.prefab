@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 35
+  maxBalls: 0
   Ball: {fileID: 5497906, guid: dc90b370d3a9d4fb1af14b514489ea90, type: 2}
 --- !u!124 &12420802
 Behaviour:
@@ -146,6 +147,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxBalls
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
