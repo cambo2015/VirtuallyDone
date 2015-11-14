@@ -8,7 +8,6 @@ public class LevelChanger : MonoBehaviour {
 	private GameObject respawnPrefab;
 	private GameObject[] respawns;
 
-
 	void Start (){
 
 		InvokeRepeating("checkBaddies", 3, 3);
@@ -16,6 +15,7 @@ public class LevelChanger : MonoBehaviour {
 
 	void checkBaddies() {
 		respawns = GameObject.FindGameObjectsWithTag("Baddie");
+		Debug.Log(respawns.Length);
 
 		if (respawns.Length == 0) {
 
