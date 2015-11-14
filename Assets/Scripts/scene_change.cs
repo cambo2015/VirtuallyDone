@@ -12,7 +12,7 @@ public class scene_change : MonoBehaviour {
 
 
 	//__Levels__
-	private string scene1 = "bowling" ;
+	//private string scene1 = "bowling" ;
 	private string scene2 = "bowling_scene2" ;
 
 
