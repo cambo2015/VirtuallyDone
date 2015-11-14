@@ -939,6 +939,7 @@ GameObject:
   - 95: {fileID: 9524076}
   - 54: {fileID: 5421356}
   - 65: {fileID: 6543516}
+  - 114: {fileID: 11472190}
   m_Layer: 0
   m_Name: funny_monster
   m_TagString: Baddie
@@ -1911,7 +1912,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137418}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: -7.26999998, y: 2, z: 16.5}
+  m_LocalPosition: {x: 11.1113949, y: 4.84000015, z: -1.98000002}
   m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
   m_Children:
   - {fileID: 468512}
@@ -2411,7 +2412,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168600}
-  m_LocalRotation: {x: .0432877839, y: -.541156113, z: .839258969, w: -.030339431}
+  m_LocalRotation: {x: .0432877876, y: -.541156173, z: .839259088, w: -.0303394347}
   m_LocalPosition: {x: 1.01327998e-06, y: 1.71725702, z: -1.04308003e-06}
   m_LocalScale: {x: .99999994, y: .999999762, z: .999999762}
   m_Children:
@@ -2753,7 +2754,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186432}
-  m_LocalRotation: {x: .130832389, y: .69854033, z: .700613916, w: .0637526512}
+  m_LocalRotation: {x: .130832404, y: .69854039, z: .700613976, w: .0637526587}
   m_LocalPosition: {x: 8.64267008e-07, y: 1.86361694, z: -9.53673975e-07}
   m_LocalScale: {x: 1, y: 1.00000024, z: 1.00000012}
   m_Children: []
@@ -3175,7 +3176,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164598}
-  m_LocalRotation: {x: .130926907, y: .699596345, z: .699559748, w: .0635550618}
+  m_LocalRotation: {x: .130926922, y: .699596405, z: .699559808, w: .0635550693}
   m_LocalPosition: {x: 2.71498993e-05, y: .931796193, z: -4.76837022e-06}
   m_LocalScale: {x: 1, y: .999999881, z: .99999994}
   m_Children: []
@@ -3757,6 +3758,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11472190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c5d14772d9e49189ccfc61f3b1aaf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &13701562
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -1831,9 +1831,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107232}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.2799997, y: -8.72999954, z: .25999999}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: 8.98639488, y: 3.00779772, z: 2.9295845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 403262}
   - {fileID: 472768}
@@ -2014,13 +2014,11 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107232}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1c7c9d4b76b4550b79964975bf9da8, type: 3}
+  m_Script: {fileID: 11500000, guid: e8c5d14772d9e49189ccfc61f3b1aaf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 35
-  Ball: {fileID: 5497906, guid: dc90b370d3a9d4fb1af14b514489ea90, type: 2}
 --- !u!136 &13608844
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2030,10 +2028,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .800000012
-  m_Height: 1
+  m_Radius: 1
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: .800000012, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!137 &13730382
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

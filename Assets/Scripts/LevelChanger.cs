@@ -16,7 +16,7 @@ public class LevelChanger : MonoBehaviour {
 
 	void checkBaddies() {
 		respawns = GameObject.FindGameObjectsWithTag("Baddie");
-		Debug.Log ("number of baddies" + respawns.Length);
+
 		if (respawns.Length == 0) {
 
 			Application.LoadLevel(NextLevel);
