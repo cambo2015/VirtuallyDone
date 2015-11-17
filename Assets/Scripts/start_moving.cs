@@ -57,19 +57,30 @@ public class start_moving : MonoBehaviour {
 		//iTween.MoveTo(camera, iTween.Hash("path", iTweenPath.GetPath("camera"), "time", 10 ,"orienttopath",true,"loop","pingpong","easeType","linear","axis","y"));
 
 
+
 		//Animate Running for Swamp_monsters
 		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too.
-		SwampMonster2.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster3.GetComponent <Animator> ().SetBool ("run", true);
-		SwampMonster4.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster5.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster6.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster7.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster8.GetComponent <Animator> ().SetBool ("run",true);
-		SwampMonster9.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster2.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster3.GetComponent <Animator> ().SetBool ("walk", true);
+		SwampMonster4.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster5.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster6.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster7.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster8.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster9.GetComponent <Animator> ().SetBool ("walk",true);
 
 		//impliments itween for all 9 Swamp_Monsters with the same runspeed;
 		for(int i =0; i< SwampMonsters.Length; i ++){
+			if(SwampMonsters[i].GetComponent <Animator>().GetBool("walk")){
+				runspeed = 70;
+				Debug.Log ("walk and runspeed is  " + runspeed + " :should be 70");
+
+			}
+			else if(SwampMonsters[i].GetComponent <Animator>().GetBool("run")){
+				runspeed = 50;
+				Debug.Log ("walk and runspeed is  " + runspeed + " :should be 50");
+
+			}
 			iTween.MoveTo(SwampMonsters[i], iTween.Hash("path", iTweenPath.GetPath("chinaMonster"+ monsterNumbers[i]), "time", runspeed ,"orienttopath",true,"loop","pingpong","easeType","linear","axis","y"));
 			Debug.Log (SwampMonsters[i]);
 
