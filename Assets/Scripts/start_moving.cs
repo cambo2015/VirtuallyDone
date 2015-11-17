@@ -11,14 +11,14 @@ public class start_moving : MonoBehaviour {
 	//__Variables__(Monsters)
 	public GameObject SwampMonster1;
 	public GameObject SwampMonster2;
-	/*public GameObject SwampMonster3;
+	public GameObject SwampMonster3;
 	public GameObject SwampMonster4;
 	public GameObject SwampMonster5;
 	public GameObject SwampMonster6;
 	public GameObject SwampMonster7;
 	public GameObject SwampMonster8;
-	public GameObject SwampMonster9;
-	public GameObject GiantToad;*/
+	//public GameObject SwampMonster9;
+	//public GameObject GiantToad;
 
 
 
@@ -26,7 +26,7 @@ public class start_moving : MonoBehaviour {
 
 
 	//__Variables iTween
-	private int runspeed = 40;
+	private int runspeed = 50;
 
 
 
@@ -43,14 +43,25 @@ public class start_moving : MonoBehaviour {
 		GameObject[] SwampMonsters = {
 			SwampMonster1,
 			SwampMonster2,
-			/*SwampMonster3,
+			SwampMonster3,
 			SwampMonster4,
 			SwampMonster5,
 			SwampMonster6,
 			SwampMonster7,
 			SwampMonster8,
-			SwampMonster9*/
+			//SwampMonster9*/
 		};//the commented parts are not made yet;
+
+
+		//Animate Running for Swamp_monsters
+		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too.
+		SwampMonster2.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster3.GetComponent <Animator> ().SetBool ("run", true);
+		SwampMonster4.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster5.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster6.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster7.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster8.GetComponent <Animator> ().SetBool ("run",true);
 
 		//impliments itween for all 9 Swamp_Monsters with the same runspeed;
 		for(int i =0; i< SwampMonsters.Length; i ++){
@@ -59,9 +70,8 @@ public class start_moving : MonoBehaviour {
 			//anim = SwampMonsters[i].GetComponent <Animator> (); //set animation variable
 		}
 
-		//Animate Running for Swamp_monsters
-		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too.
-		SwampMonster2.GetComponent <Animator> ().SetBool ("run",true);
+
+
 
 
 		//anim.SetBool ("run",true);

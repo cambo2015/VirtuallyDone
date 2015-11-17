@@ -107,7 +107,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5082083}
   m_LocalRotation: {x: 0, y: -.718767345, z: 0, w: .69525075}
-  m_LocalPosition: {x: 33.0328674, y: 10.3542814, z: .307453632}
+  m_LocalPosition: {x: 32.5800018, y: 12.1700001, z: .289999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 292892192}
@@ -367,6 +367,10 @@ LODGroup:
     renderers:
     - renderer: {fileID: 215341613}
   m_Enabled: 1
+--- !u!1 &30180869 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 1594689806}
 --- !u!1 &34947756
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +850,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 28.3828659
+      value: 28.3799992
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -854,7 +858,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.1879654
+      value: -22.2299995
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -874,11 +878,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (1)
+      value: Swamp_Monster3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -915,13 +919,13 @@ Transform:
   - {fileID: 2130978290}
   - {fileID: 1778573029}
   - {fileID: 1852215070}
-  - {fileID: 1594689807}
   - {fileID: 1573723902}
-  - {fileID: 1292300590}
   - {fileID: 1123504208}
+  - {fileID: 1292300590}
+  - {fileID: 126445431}
+  - {fileID: 1594689807}
   - {fileID: 480350039}
   - {fileID: 284677393}
-  - {fileID: 126445431}
   - {fileID: 334724818}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1909,7 +1913,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 264686997}
   m_LocalRotation: {x: 0, y: -.718767345, z: 0, w: .69525075}
-  m_LocalPosition: {x: 33.0328674, y: 2.25428104, z: .307453632}
+  m_LocalPosition: {x: 32.5, y: .469999999, z: .289999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 702029066}
@@ -2001,7 +2005,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 37.3728638
+      value: 39.8800011
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2029,11 +2033,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (2)
+      value: Swamp_Monster5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -2576,7 +2580,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 392713226}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: 31.0292377, y: -1.86571896, z: 1.00072432}
+  m_LocalPosition: {x: 31.0292377, y: -2.18000007, z: 1.00072432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 19099301}
@@ -2948,7 +2952,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 444351676}
   m_LocalRotation: {x: 0, y: -.718767345, z: 0, w: .69525075}
-  m_LocalPosition: {x: 33.0328674, y: 7.90428162, z: .307453632}
+  m_LocalPosition: {x: 32.5900002, y: 8.77000046, z: .289999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1111783853}
@@ -2964,7 +2968,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 48.4528656
+      value: 54.7700005
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2972,7 +2976,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.40254641
+      value: -3.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2992,11 +2996,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (5)
+      value: Swamp_Monster6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -4730,7 +4734,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 859405639}
   m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: .699999988, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1086292060}
@@ -4843,6 +4847,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 862530840}
   m_Mesh: {fileID: 4300000, guid: 30b05c32500f66c4ebade68d4a4ccb70, type: 3}
+--- !u!1 &897698694 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 284677392}
 --- !u!1 &899361949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5630,7 +5638,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1086292059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.24520874e-06, y: 3.50366211, z: 2.50002098}
+  m_LocalPosition: {x: -5.24520874e-06, y: 2.67000008, z: 2.50002098}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1543683032}
@@ -5664,6 +5672,10 @@ LODGroup:
     renderers:
     - renderer: {fileID: 188074580}
   m_Enabled: 1
+--- !u!1 &1088955953 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 480350038}
 --- !u!1 &1107061522
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,7 +5846,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
@@ -6296,7 +6308,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242377305}
   m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -.419999987, z: .660000026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1481842268}
@@ -6410,6 +6422,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242494169}
   m_Mesh: {fileID: 4300000, guid: 4c63cd7ed73d5ad469dbf06b88535673, type: 3}
+--- !u!1 &1248048897 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 126445430}
 --- !u!1 &1284329554
 GameObject:
   m_ObjectHideFlags: 0
@@ -7185,6 +7201,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1401187341}
   m_Mesh: {fileID: 4300000, guid: 2295d1dbd2cee5c4886edcb261823fe9, type: 3}
+--- !u!1 &1438278741 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 1778573028}
 --- !u!1 &1438428258
 GameObject:
   m_ObjectHideFlags: 0
@@ -8023,7 +8043,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 42.8628654
+      value: 40.8199997
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8031,7 +8051,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.54745388
+      value: 4.55000019
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8051,7 +8071,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
@@ -8101,11 +8121,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (3)
+      value: Swamp_Monster4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -8302,6 +8322,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SwampMonster1: {fileID: 1750143297}
   SwampMonster2: {fileID: 855582723}
+  SwampMonster3: {fileID: 1248048897}
+  SwampMonster4: {fileID: 30180869}
+  SwampMonster5: {fileID: 897698694}
+  SwampMonster6: {fileID: 1088955953}
+  SwampMonster7: {fileID: 2146504813}
+  SwampMonster8: {fileID: 1438278741}
 --- !u!114 &1750143299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8318,13 +8344,77 @@ MonoBehaviour:
   nodes:
   - {x: 2.6979959, y: 0, z: -19.3191414}
   - {x: 11.1955948, y: 0, z: -19.7429657}
-  - {x: 31.8824081, y: 0, z: -22.8651676}
-  - {x: 27.6978302, y: 0, z: 3.2728591}
-  - {x: -19.2530956, y: 0, z: 5.02033615}
+  - {x: 31.8824081, y: .273712158, z: -22.7924442}
+  - {x: 27.6978302, y: .547485352, z: 3.2728591}
+  - {x: -19.2530956, y: .674888611, z: 5.02033615}
   - {x: -16.0223141, y: 0, z: -20.7282372}
   nodeCount: 6
   initialized: 1
   initialName: New Path 2
+  pathVisible: 1
+--- !u!114 &1750143300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster4
+  pathColor: {r: .720588207, g: .180147052, b: .705679595, a: 1}
+  nodes:
+  - {x: 8.97934914, y: 0, z: -17.0320301}
+  - {x: 14.5917263, y: .029437542, z: -16.7567673}
+  nodeCount: 2
+  initialized: 1
+  initialName: New Path 2
+  pathVisible: 1
+--- !u!114 &1750143301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster3
+  pathColor: {r: .241379261, g: 1, b: 0, a: 1}
+  nodes:
+  - {x: 9.42224407, y: 0, z: -28.6306534}
+  - {x: 0, y: 0, z: -29.638073}
+  - {x: -2.73532152, y: 0, z: -10.9418192}
+  - {x: -10.7664118, y: 0, z: 0}
+  - {x: -15, y: 0, z: -.770635605}
+  - {x: -11.5166664, y: 0, z: -28.8653793}
+  nodeCount: 6
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster9
+  pathColor: {r: 1, g: 0, b: .848275661, a: 1}
+  nodes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  nodeCount: 2
+  initialized: 1
+  initialName: New Path 1
   pathVisible: 1
 --- !u!114 &1750143305
 MonoBehaviour:
@@ -8338,13 +8428,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathName: chinaMonster2
-  pathColor: {r: 1, g: 0, b: .3931036, a: 1}
+  pathColor: {r: 1, g: 0, b: .0206894875, a: 1}
   nodes:
   - {x: 5.92753315, y: 0, z: -14.2243805}
   - {x: 0, y: 0, z: -16.2505913}
-  - {x: .62091732, y: 0, z: 0}
+  - {x: 2.59501123, y: 0, z: 0}
   - {x: -5.66115189, y: 0, z: 0}
   nodeCount: 4
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster5
+  pathColor: {r: 1, g: .931034446, b: 0, a: 1}
+  nodes:
+  - {x: 21.0452652, y: 0, z: -16.5018787}
+  - {x: 27.0098381, y: 0, z: -7.23403835}
+  - {x: 24.5262642, y: 0, z: 0}
+  - {x: 20.5025482, y: 0, z: 13.6539707}
+  nodeCount: 4
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster6
+  pathColor: {r: 1, g: .703448296, b: 0, a: 1}
+  nodes:
+  - {x: 35.260582, y: 0, z: -8.69892883}
+  - {x: 27.6733398, y: 0, z: 7.46111679}
+  - {x: -6.35567665, y: 0, z: 20.8074036}
+  - {x: -6, y: 0, z: -18.4777107}
+  nodeCount: 4
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster7
+  pathColor: {r: 0, g: .131034374, b: 1, a: 1}
+  nodes:
+  - {x: 29.3468151, y: 0, z: 10.7611284}
+  - {x: 26.2677956, y: 0, z: -23.9367962}
+  - {x: 12.663353, y: 0, z: -30}
+  - {x: 8.84566784, y: 0, z: -22.2461414}
+  - {x: 19.1418629, y: 0, z: -23}
+  nodeCount: 5
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster8
+  pathColor: {r: 0, g: 0, b: 0, a: 1}
+  nodes:
+  - {x: 26.5740204, y: 0, z: -37.5478249}
+  - {x: 49.0772247, y: 0, z: -22.6621704}
+  - {x: 47.0907326, y: 0, z: -16.2702789}
+  - {x: 41.2722015, y: 0, z: -12.6177826}
+  - {x: 41, y: 0, z: -21.0849533}
+  nodeCount: 5
   initialized: 1
   initialName: New Path 1
   pathVisible: 1
@@ -8536,7 +8716,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 42.8628654
+      value: 45.6599998
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8544,7 +8724,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 14.0674534
+      value: -30.6399994
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8568,7 +8748,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (8)
+      value: Swamp_Monster8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -8705,7 +8885,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 40.3178635
+      value: 9.93000031
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8713,7 +8893,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.40254641
+      value: -3.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9571,7 +9751,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078732422}
   m_LocalRotation: {x: 0, y: -.718767345, z: 0, w: .69525075}
-  m_LocalPosition: {x: 33.0328674, y: 12.6642809, z: .307453632}
+  m_LocalPosition: {x: 32.4799995, y: 15.4899998, z: .289999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1554768890}
@@ -9754,7 +9934,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 48.4528656
+      value: 48.4500008
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -9762,7 +9942,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.8645458
+      value: 17.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9786,7 +9966,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (6)
+      value: Swamp_Monster7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}
@@ -9947,3 +10127,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2140841507}
   m_Mesh: {fileID: 4300000, guid: c91a857d464a55e4192b0b0dd9685f0c, type: 3}
+--- !u!1 &2146504813 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 2130978289}
