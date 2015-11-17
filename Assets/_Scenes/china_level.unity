@@ -1920,6 +1920,10 @@ Transform:
   - {fileID: 224535576}
   m_Father: {fileID: 214342428}
   m_RootOrder: 27
+--- !u!1 &265592598 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
+  m_PrefabInternal: {fileID: 1852215069}
 --- !u!1 &273135937
 GameObject:
   m_ObjectHideFlags: 0
@@ -8328,6 +8332,7 @@ MonoBehaviour:
   SwampMonster6: {fileID: 1088955953}
   SwampMonster7: {fileID: 2146504813}
   SwampMonster8: {fileID: 1438278741}
+  SwampMonster9: {fileID: 265592598}
 --- !u!114 &1750143299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8524,6 +8529,29 @@ MonoBehaviour:
   - {x: 47.0907326, y: 0, z: -16.2702789}
   - {x: 41.2722015, y: 0, z: -12.6177826}
   - {x: 41, y: 0, z: -21.0849533}
+  nodeCount: 5
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1750143313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: chinaMonster9
+  pathColor: {r: 1, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -10.5066557, y: 0, z: -8.88605881}
+  - {x: -4.79085159, y: 0, z: -31.1303711}
+  - {x: 18.8454666, y: 0, z: -32.2747498}
+  - {x: 36.2808266, y: 0, z: -25.7036362}
+  - {x: 37.6775513, y: 0, z: -15.6572495}
   nodeCount: 5
   initialized: 1
   initialName: New Path 1
@@ -8885,7 +8913,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.93000031
+      value: 7.71999979
       objectReference: {fileID: 0}
     - target: {fileID: 485820, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8917,7 +8945,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 107232, guid: e37687262b4a54290bf06ae736aea658, type: 2}
       propertyPath: m_Name
-      value: Swamp_Monster (4)
+      value: Swamp_Monster9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e37687262b4a54290bf06ae736aea658, type: 2}

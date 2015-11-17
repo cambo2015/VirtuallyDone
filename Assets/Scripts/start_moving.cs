@@ -17,7 +17,7 @@ public class start_moving : MonoBehaviour {
 	public GameObject SwampMonster6;
 	public GameObject SwampMonster7;
 	public GameObject SwampMonster8;
-	//public GameObject SwampMonster9;
+	public GameObject SwampMonster9;
 	//public GameObject GiantToad;
 
 
@@ -49,7 +49,7 @@ public class start_moving : MonoBehaviour {
 			SwampMonster6,
 			SwampMonster7,
 			SwampMonster8,
-			//SwampMonster9*/
+			SwampMonster9
 		};//the commented parts are not made yet;
 
 
@@ -62,6 +62,7 @@ public class start_moving : MonoBehaviour {
 		SwampMonster6.GetComponent <Animator> ().SetBool ("run",true);
 		SwampMonster7.GetComponent <Animator> ().SetBool ("run",true);
 		SwampMonster8.GetComponent <Animator> ().SetBool ("run",true);
+		SwampMonster9.GetComponent <Animator> ().SetBool ("run",true);
 
 		//impliments itween for all 9 Swamp_Monsters with the same runspeed;
 		for(int i =0; i< SwampMonsters.Length; i ++){
