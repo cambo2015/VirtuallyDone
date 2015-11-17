@@ -6,7 +6,8 @@ public class start_moving : MonoBehaviour {
 	/*[Notes] I tried to attach the itween path to other MOnsters but they bunched up. I atached this script to only 1 monster and I also only
 	attached the itween path to only 1 monster...see Swamp_Monster1 components in the unity editor - Cambo*/
 
-
+	//optional and for fun
+	//public GameObject camera;
 
 	//__Variables__(Monsters)
 	public GameObject SwampMonster1;
@@ -34,7 +35,7 @@ public class start_moving : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//__Variables__(Animation)
-		Animator anim = GetComponent <Animator>();//state animator variable
+		//Animator anim = GetComponent <Animator>();//state animator variable
 
 
 
@@ -52,6 +53,9 @@ public class start_moving : MonoBehaviour {
 			SwampMonster9
 		};//the commented parts are not made yet;
 
+		//CAMERA PATH OPTIONAL
+		//iTween.MoveTo(camera, iTween.Hash("path", iTweenPath.GetPath("camera"), "time", 10 ,"orienttopath",true,"loop","pingpong","easeType","linear","axis","y"));
+
 
 		//Animate Running for Swamp_monsters
 		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too.
@@ -68,6 +72,7 @@ public class start_moving : MonoBehaviour {
 		for(int i =0; i< SwampMonsters.Length; i ++){
 			iTween.MoveTo(SwampMonsters[i], iTween.Hash("path", iTweenPath.GetPath("chinaMonster"+ monsterNumbers[i]), "time", runspeed ,"orienttopath",true,"loop","pingpong","easeType","linear","axis","y"));
 			Debug.Log (SwampMonsters[i]);
+
 			//anim = SwampMonsters[i].GetComponent <Animator> (); //set animation variable
 		}
 
@@ -86,5 +91,8 @@ public class start_moving : MonoBehaviour {
 
 		//this runs the running animation every frame:D
 		//anim.SetBool ("run", true);//run variable
+	}
+	void LateUpdate(){
+
 	}
 }

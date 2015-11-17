@@ -8556,6 +8556,31 @@ MonoBehaviour:
   initialized: 1
   initialName: New Path 1
   pathVisible: 1
+--- !u!114 &1750143314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750143297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: camera
+  pathColor: {r: 1, g: 0, b: .931034565, a: 1}
+  nodes:
+  - {x: 31.3295403, y: 10.6842804, z: -29.6342201}
+  - {x: -10.0998459, y: 10.6842804, z: -29.4740677}
+  - {x: -7.33441544, y: 10.6842804, z: .496376038}
+  - {x: 30.7126064, y: 10.6842804, z: 5.35084152}
+  - {x: 34.4500732, y: 10.6842804, z: -28.1429329}
+  - {x: 31.5988102, y: 10.6842804, z: -35.0213242}
+  - {x: 31.4544525, y: 10.6842804, z: -29.5700836}
+  nodeCount: 7
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
 --- !u!1 &1764099645
 GameObject:
   m_ObjectHideFlags: 0
