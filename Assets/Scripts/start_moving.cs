@@ -59,15 +59,15 @@ public class start_moving : MonoBehaviour {
 
 
 		//Animate Running for Swamp_monsters
-		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too.
+		SwampMonster1.GetComponent <Animator>().SetBool ("run",true);//"run" is set in the AnimationController, true is too. //ok
 		SwampMonster2.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster3.GetComponent <Animator> ().SetBool ("walk", true);
-		SwampMonster4.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster5.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster6.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster7.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster8.GetComponent <Animator> ().SetBool ("walk",true);
-		SwampMonster9.GetComponent <Animator> ().SetBool ("walk",true);
+		SwampMonster3.GetComponent <Animator> ().SetBool ("walk", true);//ok
+		SwampMonster4.GetComponent <Animator> ().SetBool ("walk",true);//ok
+		SwampMonster5.GetComponent <Animator> ().SetBool ("walk",true);//ok
+		SwampMonster6.GetComponent <Animator> ().SetBool ("walk",true);//ok
+		SwampMonster7.GetComponent <Animator> ().SetBool ("walk",true);//ok
+		SwampMonster8.GetComponent <Animator> ().SetBool ("walk",true);//ok
+		SwampMonster9.GetComponent <Animator> ().SetBool ("walk",true);//ok
 
 		//impliments itween for all 9 Swamp_Monsters with the same runspeed;
 		for(int i =0; i< SwampMonsters.Length; i ++){
